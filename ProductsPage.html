@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Товары</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="MainStyle.css">
+        <link rel="stylesheet" href="ProductsPage.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a>Город</a>
+                <a>Номер телефона</a>
+            </div>
+            <nav class = "HeaderNav">
+                <a href = "Index.html">Главная страница</a>
+                <a href = "ProductsPage.html">Товары</a>
+                <a href = "SpecialOffersPage.html">Акции</a>
+                <a href = "CompanyNewsPage.html">Новости</a>  
+                <a class = "HeaderNavItemCabinet">Мой магазин</a>         
+            </nav>
+        </header>
+        <main>
+            <h1>Товары</h1>
+            <form id="DBase" method="post" action="addRow.php">
+                <div>
+                    <label>Наименование</label>
+                    <input type="text" name="Name">
+                </div>
+                <div>	
+                    <label>Описание</label>
+                    <input type="text" name="Description">
+                </div>
+                <div>
+                    <label>Срок годности</label>
+                    <input type="date" name="ExpirationDate">
+                </div>		
+                <div>	
+                    <label>Масса нетто</label>
+                    <input type="text" name="NetWeight">
+                </div>	
+                <div>	
+                    <label>Масса брутто</label>
+                    <input type="text" name="GrossWeight">
+                </div>	
+                <div>	
+                    <label>Стоимость</label>
+                    <input type="text" name="PurchasePrice">
+                </div>	
+                <div>
+                    <input type="submit" name="add" value="Добавить"/>
+                </div>		
+            </form>
+            <table>
+                <?php include ("displayRows.php");?>
+            </table>
+        </main>
+        <footer>
+            <span>© 2020 ООО «Мой Супермаркет». Любое использование контента без письменного разрешения ООО «Супермаркет» запрещено.</span>
+        </footer>
+    </body>
+</html>

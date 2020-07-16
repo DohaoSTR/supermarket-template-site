@@ -1,0 +1,184 @@
+body {
+    background: linear-gradient(45deg, #93278f, #00a99d);
+    padding: 20px 150px 20px 150px;
+}
+header{
+    padding-bottom: 50px;
+}
+main{
+    min-height: calc(100vh - 80px);
+}
+header div{   
+    padding-left: calc(100%/4);
+}
+header div a{
+    padding: 4px 15px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+header nav{
+    padding: 60px 0 0 0;
+}
+header nav a{
+    text-decoration: none;
+    padding: 4px 15px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.HeaderNavItemCabinet{
+    float: right;
+}
+header div a:hover, header nav a:hover, .HeaderNavItemCabinet:hover{
+    background: rgba(245,247,250,.2);
+    border-radius: 15px;
+}
+header div a:active, header nav a:active, .HeaderNavItemCabinet:active{
+    background:  rgba(202, 27, 109, 0.2);
+}
+.SpecialOffers div{
+    display: inline-block;
+    padding: 0px 15px 15px 15px;
+    margin: 0 0 20px;
+}
+.SaleCardDescription{
+    display: block;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #28a62a;
+}
+.SpecialOffers div p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.45;
+}
+.SaleCardNewPrice{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #e61801; 
+}
+.SaleCardOldPrice{
+    position: relative;
+    font-weight: 400;
+    color: #ccc;
+    font-size: 20px;
+    line-height: 26px;
+}
+.SaleCardOldPrice:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    left: 0;
+    height: 1px;
+    background: #000;
+}
+main h1{
+    line-height: 1;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    padding: 0px 15px 15px 15px;
+}
+.SpecialOffersMore, .NewsLineMore{
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+.SpecialOffersMore a, .NewsLineMore a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: #8711b6;
+}
+.NewsLine div{
+    display: inline-block;
+    width: 275px;
+    margin: 16px 16px;
+    min-height: 150px;
+    padding: 20px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.NewsLine div h2{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.NewsLine div span{
+    font-size: 14px;
+    color: #d8961b;
+    font-family: 'Tomorrow', sans-serif;
+    line-height: 18px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+footer{
+    padding-top: 30px;
+}
+footer span{
+    padding: 4px 15px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+#DBase{
+	display: block;
+	padding-left: 15px
+}
+#DBase label {
+    display: block;
+    color: #fff;
+}
+
+#DBase div {
+	display: inline-block;
+}
+
+#DBase select, input {
+	width: 210px;
+}
+
+th {
+	text-align: left;
+}
+
+table {
+	margin: 15px;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 4px 4px 4px 4px;
+    border: 1px solid #ccc;
+    color: #fff;
+    width: 211px;
+}
+
+td a{
+    text-decoration: none;
+    color: #fff;
+}
+
+tr:hover {
+	background-color: #DCDBDB;
+	cursor: pointer;
+}
